@@ -15,6 +15,7 @@ repositories {
 dependencies {
     implementation(kotlin("stdlib"))
     implementation("net.dv8tion:JDA:4.2.0_211") //JDA Java/KotlinのDiscordAPIラッパー
+    implementation("com.jagrosh:jda-utilities:3.0.5") // JDAでコマンドを使うときのやつ
     testCompile("junit", "junit", "4.12")
 }
 
